@@ -80,7 +80,7 @@ public class GUI extends JFrame {
 
 
                     /**+
-                     * 1000 / 50 = 20 -> 20 frame per a second
+                     * 1000 / 100 = 10 -> 10 frame per a second
                      */
                     Thread.sleep(100);
                 } catch (InterruptedException e) {
