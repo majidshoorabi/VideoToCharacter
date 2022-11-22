@@ -47,7 +47,7 @@ public class GUI extends JFrame {
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
         setContentPane(this.mainPanel);
-        setSize(this.width, this.height * 3);
+        setSize(1280, 960);
 //        textArea.setFont(textArea.getFont().deriveFont(3f));
         textArea.setFont(new Font(Font.MONOSPACED, Font.PLAIN, 3));
     }
